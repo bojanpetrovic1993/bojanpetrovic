@@ -1,18 +1,18 @@
 /* Custom properties/variables  */
 :root {
-  --main-color: #ac0b0b;
+  /* --main-color: #ac0b0b;
   --hover-main-color: #aa4a44;
   --letter-color: #f2f2f2;
   --project-color: #1a1a1a;
-  --shadow-color: #111111;
+  --shadow-color: #111111;*/
 
   /* Second version */
 
-  /* --main-color: #f2f2f2;
+  --main-color: #f2f2f2;
   --hover-main-color: #404040;
   --letter-color: #1a1a1a;
   --project-color: #b3b3b3;
-  --shadow-color: #404040; */
+  --shadow-color: #404040;
 }
 
 /* Base reset */
