@@ -463,7 +463,8 @@ footer img {
 }
 
 @media (max-width: 30.625em) {
-  .projects-section {
+  .projects-section, .nav-section,
+  .wlcome-section,{
     padding: 6rem 1rem;
   }
 }
