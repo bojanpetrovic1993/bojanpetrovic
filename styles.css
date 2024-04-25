@@ -337,11 +337,12 @@ button {
   padding: 1rem 2rem;
   border-radius: 2px;
   border: none;
-  color: var(--text-button-color);
+  
 }
 
 button:hover {
   cursor: pointer;
+ 
 }
 
 .btn-all,
@@ -350,7 +351,7 @@ button:hover {
   transition: background 0.3s ease-out;
   text-decoration: none;
   background-color: var(--bg-project-section-color);
-  color: var(--text-project-color);
+  color: var(--text-button-color);
 }
 
 .btn-all:hover,
