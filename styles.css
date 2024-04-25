@@ -23,6 +23,7 @@
   --shadow-project-color: #2a3970;
   --hover-project-color: #7091e6;
   --bg-button-color: #3d52a0;
+  --text-button-color: #3d52a0;
 
   /*CONTACT COLOR*/
   --bg-contact-color: #3d52a0;
@@ -336,6 +337,7 @@ button {
   padding: 1rem 2rem;
   border-radius: 2px;
   border: none;
+  color: var(--text-button-color);
 }
 
 button:hover {
