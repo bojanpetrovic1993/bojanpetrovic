@@ -3,7 +3,7 @@
   /* website colors */
 
   /*NAVIGATION COLOR*/
-  --bg-nav-color: #b185bf;
+  --bg-nav-color: #3d52a0;
   --text-nav-color: #3b2026;
   --hover-nav-color: #d5a6f2;
   --shadow-nav-color: #3b2026;
@@ -16,7 +16,7 @@
 
   /*PROJECT COLOR*/
   --bg-project-section-color: #b185bf;
-  --bg-project-color: #69409c;
+  --bg-project-color: #3d52a0;
   --text-project-color: #b185bf;
   --border-project-color: #418327;
   --shadow-project-color: #3b2026;
@@ -24,12 +24,12 @@
   --bg-button-color: #5e762a;
 
   /*CONTACT COLOR*/
-  --bg-contact-color: #69409c;
+  --bg-contact-color: #3d52a0;
   --text-contact-color: #d5a6f2;
   --shadow-contact-color: #3b2026;
 
   /*FOOTER COLOR*/
-  --bg-footer-color: #69409c;
+  --bg-footer-color: #3d52a0;
   --text-footer-color: #e4bdfd;
   --border-footer-color: #3b2026;
 }
