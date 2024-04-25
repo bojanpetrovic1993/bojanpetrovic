@@ -357,6 +357,7 @@ button:hover {
 .btn-all:hover,
 .btn-less:hover {
   background-color: var(--bg-button-color);
+  color: var(--text-nav-color);
 }
 
 .btn-all:hover > i,
