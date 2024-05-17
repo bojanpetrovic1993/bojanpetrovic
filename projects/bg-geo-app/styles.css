@@ -1,0 +1,257 @@
+/* ----------ALL PAGE SETTINGS START---------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font: 12pt "serif";
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.page {
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 2cm;
+  margin: 1cm auto;
+  /* background: white; */
+}
+
+.backend-page {
+  width: 90vw;
+}
+
+.subpage {
+  padding: 1mm;
+  /* border: 1px rgb(0, 0, 0) solid; */
+  height: max-content;
+  outline: 2cm #c4c5ff solid;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+}
+/* ----------ALL PAGE SETTINGS END---------- */
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------BACK-END START---------- */
+
+#showMe {
+  display: none;
+}
+
+.back-end,
+.general-data,
+.personal-data,
+.number-of-objects,
+.point-data,
+.object-data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.general-data {
+  background-color: rgb(255, 212, 212);
+}
+.personal-data {
+  background-color: rgb(178, 174, 255);
+}
+.number-of-objects {
+  background-color: rgb(222, 155, 255);
+}
+.point-data {
+  background-color: rgb(130, 130, 130);
+}
+.object-data {
+  background-color: rgb(249, 255, 183);
+}
+
+label {
+  font-size: 14px;
+}
+
+input {
+  height: 20px;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgb(8, 123, 35);
+  border: solid 4px #4fbe00;
+  border-radius: 5px;
+  margin: 20px auto;
+  align-self: center;
+}
+
+/* ----------BACK-END END---------- */
+
+/* ----------INPUT TEXT START---------- */
+.mun,
+.cad-mun,
+.cad-par,
+.subject-no,
+.subject-date,
+.work-date,
+.skn {
+  color: rgb(3, 173, 0);
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding: 0 4px;
+}
+
+/* ----------INPUT TEXT END---------- */
+
+/* ----------COVER PAGE SETTINGS START---------- */
+/* -----PARENT----- */
+.cover-page,
+.request-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* -----CHILD----- */
+.cover-attachment {
+  color: rgb(67, 67, 67);
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+/* -----CHILD----- */
+.cover-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.cover-info-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-info-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-rows {
+  display: flex;
+  flex-direction: row;
+}
+/* -----CHILD----- */
+.cover-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+/* -----CHILD----- */
+.cover-content {
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+/* -----CHILD----- */
+.cover-table {
+  margin-bottom: 60px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* -----CHILD----- */
+.cover-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cover-footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.cover-footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+.agency-adress {
+  border-bottom: 1px black solid;
+  margin-top: 3px;
+}
+.cover-signature-left {
+  margin-top: 38px;
+  color: #ffffff;
+  border-bottom: 1px black solid;
+}
+.cover-signature-right {
+  margin-top: 20px;
+  color: #ffffff;
+  border-bottom: 1px black solid;
+}
+/* ----------COVER PAGE SETTINGS END---------- */
+
+/* ----------REQUEST PAGE SETTINGS START---------- */
+
+/* -----PARENT----- */
+
+/* -----CHILD----- */
+.request-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.cadastre-service {
+  display: flex;
+  justify-content: center;
+}
+.law {
+  font-size: 14px;
+}
+
+/* ----------REQUEST PAGE SETTINGS END---------- */
