@@ -18,7 +18,7 @@ for (var i = 0; i < number.length; i++) {
     // if result is not diplayed, just keep adding
     if (resultDisplayed === false) {
       input.innerHTML += e.target.innerHTML;
-    } else if (resultDisplayed === true && lastChar === "+" || lastChar === "-" || lastChar === "×" || lastChar === "÷") {
+    } else if (resultDisplayed === true && lastChar === "+" || lastChar === "-" || lastChar === "Ã—" || lastChar === "Ã·") {
       // if result is currently displayed and user pressed an operator
       // we need to keep on adding to the string for next operation
       resultDisplayed = false;
@@ -43,7 +43,7 @@ for (var i = 0; i < operator.length; i++) {
     var lastChar = currentString[currentString.length - 1];
 
     // if last character entered is an operator, replace it with the currently pressed one
-    if (lastChar === "+" || lastChar === "-" || lastChar === "×" || lastChar === "÷") {
+    if (lastChar === "+" || lastChar === "-" || lastChar === "Ã—" || lastChar === "Ã·") {
       var newString = currentString.substring(0, currentString.length - 1) + e.target.innerHTML;
       input.innerHTML = newString;
     } else if (currentString.length == 0) {
@@ -64,7 +64,7 @@ result.addEventListener("click", function() {
   var inputString = input.innerHTML;
 
   // forming an array of numbers. eg for above string it will be: numbers = ["10", "26", "33", "56", "34", "23"]
-  var numbers = inputString.split(/\+|\-|\×|\÷/g);
+  var numbers = inputString.split(/\+|\-|\Ã—|\Ã·/g);
 
   // forming an array of operators. for above string it will be: operators = ["+", "+", "-", "*", "/"]
   // first we replace all the numbers and dot with empty string and then split
@@ -80,18 +80,18 @@ result.addEventListener("click", function() {
   // as we move we are alterning the original numbers and operators array
   // the final element remaining in the array will be the output
 
-  var divide = operators.indexOf("÷");
+  var divide = operators.indexOf("Ã·");
   while (divide != -1) {
     numbers.splice(divide, 2, numbers[divide] / numbers[divide + 1]);
     operators.splice(divide, 1);
-    divide = operators.indexOf("÷");
+    divide = operators.indexOf("Ã·");
   }
 
-  var multiply = operators.indexOf("×");
+  var multiply = operators.indexOf("Ã—");
   while (multiply != -1) {
     numbers.splice(multiply, 2, numbers[multiply] * numbers[multiply + 1]);
     operators.splice(multiply, 1);
-    multiply = operators.indexOf("×");
+    multiply = operators.indexOf("Ã—");
   }
 
   var subtract = operators.indexOf("-");
