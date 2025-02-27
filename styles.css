@@ -3,7 +3,7 @@
     /* website colors */
   
     /*NAVIGATION COLOR*/
-    --bg-nav-color: #580485 ;
+    --bg-nav-color: #49056d ;
     --text-nav-color: #ede8f5;
     --hover-nav-color: #CBACDC ;
     --shadow-nav-color: #401359 ;
@@ -16,23 +16,23 @@
   
     /*PROJECT COLOR*/
     --bg-project-section-color: #ebedf5;
-    --bg-project-color: #580485;
+    --bg-project-color: #49056d;
     --text-project-color: #ede8f5;
-    --heading-project-color: #580485;
-    --border-project-color: #580485;
+    --heading-project-color: #49056d;
+    --border-project-color: #49056d;
     --shadow-project-color: #401359;
     --hover-project-color: #CBACDC;
-    --bg-button-color: #580485;
-    --text-button-color: #580485;
+    --bg-button-color: #49056d;
+    --text-button-color: #49056d;
   
     /*CONTACT COLOR*/
-    --bg-contact-color: #580485;
+    --bg-contact-color: #49056d;
     --text-contact-color: #ede8f5;
     --shadow-contact-color: #401359;
-    --text-code-color: #580485;
+    --text-code-color: #49056d;
   
     /*FOOTER COLOR*/
-    --bg-footer-color: #580485;
+    --bg-footer-color: #49056d;
     --text-footer-color: #ede8f5;
     --border-footer-color: #ede8f5;
   }
